@@ -46,6 +46,4 @@
 
 8. Listas Ordenadas
 
-   1. elemento1
-   2. elemento2
-   3. elemento3
+   La lista Sintaxis :-)
