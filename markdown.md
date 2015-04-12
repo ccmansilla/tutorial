@@ -38,13 +38,19 @@ Para realizar este documento utilice la sintaxis de MarkDown.
 6. Resaltar parrafo
 
    > Este es un parrafo resaltado por MarkDown.
+   
+7. Resaltar codigo
 
-7. Listas 
+   ```
+   echo "Esto es codigo resaltado por MarkDown";
+   ```
+
+8. Listas 
 
    * elemento1
    * elemento2
    * elemento3
 
-8. Listas Ordenadas
+9. Listas Ordenadas
 
    La lista Sintaxis :-)
