@@ -1,7 +1,8 @@
 #MarkDown
 
 
-> **MarkDown** es un lenguaje de marcado creado por John Gruber , con contribuciones de Aaron Swartz tiene una sintaxis que es _fácil de leer, fácil de escribir_ y con formato de **texto plano** diseñada para que luego pueda ser convertida por una herramienta en **html**.
+> **MarkDown** es un lenguaje de marcado creado por John Gruber , con contribuciones de Aaron Swartz tiene una sintaxis que es _fácil de leer, fácil de escribir_ y con formato de **texto plano** diseñada para que luego pueda ser convertida por una herramienta en **html**. 
+Para realizar este documento utilice la sintaxis de MarkDown.
 
 ##Sintaxis
 1. Parrafos
