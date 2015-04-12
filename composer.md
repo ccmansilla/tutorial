@@ -12,7 +12,7 @@ Para instalar composer basta con ejecutar en la terminal:
 
 ##Usando Composer
 
-Para comenzar a usar composer en tu proyecto, necesitas crear un archivo con llamado **composer.json**. Este archivo describe las dependencias de tu proyecto y debe contener yambien otros metadatos.
+Para comenzar a usar composer en tu proyecto, necesitas crear en el directorio del mismo un archivo llamado **composer.json**. Este archivo describe las dependencias de tu proyecto y debe contener tambien otros metadatos.
 
 ```
 {
@@ -27,3 +27,13 @@ Luego instalamos las dependencias al ejecutar:
 ```
 	#composer install
 ```
+
+Para utilizar las librerias instaladas simplemente incluya un archivo ***vendor/autoload.php** que composer genera para hacerlo mas facil.
+
+```
+	require 'vendor/autoload.php';
+	$log = new Monolog\Logger('name');
+	$log->pushHandler(new Monolog\Handler\StreamHandler('app.log', Monolog\Logger::WARNING));
+
+	$log->addWarning('Foo');
+```  
