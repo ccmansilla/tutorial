@@ -28,7 +28,7 @@ Luego instalamos las dependencias al ejecutar:
 	#composer install
 ```
 
-Para utilizar las librerias instaladas simplemente incluya un archivo ***vendor/autoload.php** que composer genera para hacerlo mas facil.
+Para utilizar las librerias instaladas simplemente incluya un archivo **vendor/autoload.php** que composer genera para hacerlo mas facil.
 
 ```
 	require 'vendor/autoload.php';
