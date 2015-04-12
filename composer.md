@@ -9,3 +9,21 @@ Para instalar composer basta con ejecutar en la terminal:
     #curl -sS https://getcomposer.org/installer | php
     #sudo mv composer.phar /usr/local/bin/composer
 ```
+
+##Usando Composer
+
+Para comenzar a usar composer en tu proyecto, necesitas crear un archivo con llamado **composer.json**. Este archivo describe las dependencias de tu proyecto y debe contener yambien otros metadatos.
+
+```
+{
+    "require": {
+        "monolog/monolog": "1.0.*"
+    }
+}
+```
+
+Luego instalamos las dependencias al ejecutar:
+
+```
+	#composer install
+```
